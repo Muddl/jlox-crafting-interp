@@ -27,7 +27,7 @@ replay_pid*
 ### Gradle template
 .gradle
 **/build/
-!src/**/build/
+!jlox/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -47,6 +47,6 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-!/build.gradle
+!/jlox/build.gradle
 
 !/settings.gradle
